@@ -1,0 +1,274 @@
+{
+  "version": "6.0",
+  "nxVersion": "18.2.3",
+  "deps": {
+    "@angular/animations": "17.3.3",
+    "@angular/common": "17.3.3",
+    "@angular/compiler": "17.3.3",
+    "@angular/core": "17.3.3",
+    "@angular/forms": "17.3.3",
+    "@angular/platform-browser": "17.3.3",
+    "@angular/platform-browser-dynamic": "17.3.3",
+    "@angular/router": "17.3.3",
+    "@nx/angular": "18.2.3",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "0.14.4",
+    "@angular-devkit/build-angular": "17.3.3",
+    "@angular-devkit/core": "17.3.3",
+    "@angular-devkit/schematics": "17.3.3",
+    "@angular-eslint/eslint-plugin": "17.3.0",
+    "@angular-eslint/eslint-plugin-template": "17.3.0",
+    "@angular-eslint/template-parser": "17.3.0",
+    "@angular/cli": "~16.1.0",
+    "@angular/compiler-cli": "17.3.3",
+    "@angular/language-service": "17.3.3",
+    "@nx/cypress": "18.2.3",
+    "@nx/eslint-plugin": "18.2.3",
+    "@nx/jest": "18.2.3",
+    "@nx/js": "18.2.3",
+    "@nx/linter": "18.2.3",
+    "@nx/web": "18.2.3",
+    "@nx/workspace": "18.2.3",
+    "@schematics/angular": "17.3.3",
+    "@types/jest": "^29.4.0",
+    "@types/node": "^18.16.9",
+    "@typescript-eslint/eslint-plugin": "7.3.0",
+    "@typescript-eslint/parser": "7.3.0",
+    "cypress": "^12.16.0",
+    "eslint": "8.57.0",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-plugin-cypress": "2.13.4",
+    "jest": "^29.4.1",
+    "jest-environment-jsdom": "^29.4.1",
+    "jest-preset-angular": "14.0.3",
+    "nx": "18.2.3",
+    "prettier": "^2.6.2",
+    "ts-jest": "^29.1.0",
+    "ts-node": "10.9.1",
+    "typescript": "5.4.4"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "tools/tsconfig.tools.json",
+        "hash": "16088922570277978783"
+      },
+      {
+        "file": "package.json",
+        "hash": "16466677606696112647"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "18315524891129148814"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "9714835144110132410"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "235626400633494639"
+      },
+      {
+        "file": "migrations.json",
+        "hash": "3180202812984267368"
+      },
+      {
+        "file": "apps/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "7848693104264504795"
+      },
+      {
+        "file": "libs/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "1454727097211863380"
+      },
+      {
+        "file": "nx.json",
+        "hash": "3803635676614681249"
+      },
+      {
+        "file": "README.md",
+        "hash": "8872940194118086168"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "2178144051909739023"
+      }
+    ],
+    "projectFileMap": {
+      "test": [
+        {
+          "file": "apps/test/.eslintrc.json",
+          "hash": "17858791511670828995"
+        },
+        {
+          "file": "apps/test/jest.config.ts",
+          "hash": "13151174635434461863"
+        },
+        {
+          "file": "apps/test/project.json",
+          "hash": "2832358723606275264"
+        },
+        {
+          "file": "apps/test/src/app/app.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/test/src/app/app.component.html",
+          "hash": "17415670830540834747"
+        },
+        {
+          "file": "apps/test/src/app/app.component.spec.ts",
+          "hash": "420023633679447978",
+          "deps": [
+            "npm:@angular/core/testing"
+          ]
+        },
+        {
+          "file": "apps/test/src/app/app.component.ts",
+          "hash": "13879432008710432684",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/test/src/app/app.module.ts",
+          "hash": "9766286356044370578",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/platform-browser"
+          ]
+        },
+        {
+          "file": "apps/test/src/app/nx-welcome.component.ts",
+          "hash": "6481050371099898615",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/test/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/test/src/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/test/src/index.html",
+          "hash": "3602796558794608399"
+        },
+        {
+          "file": "apps/test/src/main.ts",
+          "hash": "14191774545949582757",
+          "deps": [
+            "npm:@angular/platform-browser-dynamic"
+          ]
+        },
+        {
+          "file": "apps/test/src/styles.css",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "apps/test/src/test-setup.ts",
+          "hash": "12935735732682149507",
+          "deps": [
+            "npm:jest-preset-angular/setup-jest"
+          ]
+        },
+        {
+          "file": "apps/test/tsconfig.app.json",
+          "hash": "8365644956319658761"
+        },
+        {
+          "file": "apps/test/tsconfig.editor.json",
+          "hash": "17511610827034788226"
+        },
+        {
+          "file": "apps/test/tsconfig.json",
+          "hash": "12094030803572703611"
+        },
+        {
+          "file": "apps/test/tsconfig.spec.json",
+          "hash": "2927375835638640771"
+        }
+      ],
+      "test-e2e": [
+        {
+          "file": "apps/test-e2e/.eslintrc.json",
+          "hash": "14060216369337943343"
+        },
+        {
+          "file": "apps/test-e2e/cypress.config.ts",
+          "hash": "15414076024138857470",
+          "deps": [
+            "npm:cypress",
+            "npm:@nx/cypress/plugins/cypress-preset"
+          ]
+        },
+        {
+          "file": "apps/test-e2e/project.json",
+          "hash": "11783534599856479836"
+        },
+        {
+          "file": "apps/test-e2e/src/e2e/app.cy.ts",
+          "hash": "14209058263447520674"
+        },
+        {
+          "file": "apps/test-e2e/src/fixtures/example.json",
+          "hash": "11614668686582597233"
+        },
+        {
+          "file": "apps/test-e2e/src/support/app.po.ts",
+          "hash": "11157016311132186162"
+        },
+        {
+          "file": "apps/test-e2e/src/support/commands.ts",
+          "hash": "7314691991044890572"
+        },
+        {
+          "file": "apps/test-e2e/src/support/e2e.ts",
+          "hash": "3666078656922506009"
+        },
+        {
+          "file": "apps/test-e2e/tsconfig.json",
+          "hash": "15439127571515986436"
+        }
+      ]
+    }
+  }
+}
